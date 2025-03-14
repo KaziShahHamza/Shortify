@@ -1,0 +1,8 @@
+tools: sys.write, sys.read, sys.download, sys.find
+tools: github.com/gptscript-ai/browser
+args: url: Articles link
+args: dir: directory to save the created files
+
+1. Browse to the ${url} and read the pages contents
+2. Create a tldr text version of it for an instagram reel or youtube short. No emojis and no more than 100 words.
+3. split the created text into 3 parts. save the texts to "${dir}/story-${INDEX}.txt"
