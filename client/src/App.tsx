@@ -4,7 +4,7 @@ function App() {
       <main className="max-w-2xl mx-auto flex gap-8 px-4">
         <div className="py-8 flex flex-col justify-center">
           <h1 className="text-4xl font-bold uppercase mb-4">
-            <span className="text-5xl">Shortify AI</span>
+            <span className="text-5xl">Shortify</span>
             <br />
             <span className="bg-gradient-to-br from-emerald-300 from 30% to-sky-300 bg-clip-text text-transparent">
               Convert articles into engaging short videos.
