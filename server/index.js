@@ -4,7 +4,7 @@ import fs from "fs";
 import cors from "cors";
 import { GPTScript, RunEventType } from "@gptscript-ai/gptscript";
 
-const g = new GPTScript({key: "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"});
+const g = new GPTScript({key: process.env.GPTSCRIPT_API_KEY});
 
 const app = express();
 app.use(cors());
