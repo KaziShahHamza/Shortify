@@ -36,12 +36,10 @@ app.get("/create-story", async (req, res) => {
     disableCache: true,
   };
 
-  console.log("after options");
 
   try {
     const run = await g.run("./story.gpt", opts);
 
-    console.log("after run");
 
     run.on(RunEventType.Event, (event) => {
       if (event.type === RunEventType.CallFinish && event.output) {
