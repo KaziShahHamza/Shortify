@@ -1,0 +1,4 @@
+tools: sys.read, sys.write
+
+1. write a cat story in 20 words
+3. save the story to "storyTwo.txt"
